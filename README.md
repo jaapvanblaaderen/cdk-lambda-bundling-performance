@@ -15,19 +15,19 @@ Example test output:
 Bundling asset simple-stack/HandlerLambda/Code/Stage...
 
  RUNS  lib/simple-stack.test.ts
-✨ Built in 6.71s
+✨ Built in 8.01s
 Bundling asset simple-stack/HandlerLambda/Code/Stage...
 
  RUNS  lib/simple-stack.test.ts
-✨ Built in 6.57s
- PASS  lib/simple-stack.test.ts (18.8 s)
+✨ Built in 6.66s
+ PASS  lib/simple-stack.test.ts (21.056 s)
   Simple Stack
-    ✓ Should create an API Gateway resource (8141 ms)
-    ✓ Should create a Lambda Function (7338 ms)
+    ✓ Should have memory size set to 512MB (9505 ms)
+    ✓ Should use Node 12 as runtime (7459 ms)
 
 Test Suites: 1 passed, 1 total
 Tests:       2 passed, 2 total
 Snapshots:   0 total
-Time:        19.815 s, estimated 24 s
+Time:        22.211 s
 Ran all test suites.
 ```
